@@ -1,0 +1,10 @@
+name: ${project.name}
+author: ${project.organization.name}
+version: ${project.version}
+
+main: ${bukkitMain}
+
+commands:
+    shutdown:
+        description: Shutdowns the server
+        usage: /shutdown <reason>
